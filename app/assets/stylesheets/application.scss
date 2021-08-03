@@ -13,3 +13,14 @@
  *= require_tree .
  *= require_self
  */
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+
+ body {
+   background-image: url("test.jfif");
+ }
+
+ .container {
+    background-color: azure;
+    margin: 100px;
+ }
